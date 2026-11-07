@@ -9,8 +9,8 @@ Our team's production hub for the AI short film competition: checklist, budget (
 You need [Node.js](https://nodejs.org) (the LTS version) and [Git](https://git-scm.com).
 
 ```bash
-git clone <this repo's link>
-cd film-crew-hq
+git clone https://github.com/Rhys12-Tran/2027.git
+cd 2027
 npm install
 ```
 
