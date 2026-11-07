@@ -1,0 +1,10 @@
+{
+  "name": "Film Crew HQ",
+  "short_name": "Crew HQ",
+  "description": "Checklist, budget and team for our AI short film.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12142A",
+  "theme_color": "#1B1F3B",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

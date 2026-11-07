@@ -12,7 +12,7 @@ Each step ends with something you can click and check before the next one starts
 | 5 | Budget charts: pie, bar, line | |
 | 6 | Activity feed + bell notifications (incl. "every change" alerts for Checklist and Budget) | |
 | 7 | **Home dashboard** using all real data | |
-| 8 | Put it online (Netlify) + "Add to Home Screen" on phones | |
+| 8 | Put it online (Netlify) + "Add to Home Screen" on phones | 🔨 Config ready, needs Netlify connected |
 | 9 | Email alerts (uses the Gmail setup from SETUP.md) | |
 
 ## Extra ideas (all approved)
