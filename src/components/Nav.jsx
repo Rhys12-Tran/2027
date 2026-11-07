@@ -14,7 +14,7 @@ export default function Nav({ unread = 0 }) {
   return (
     <>
       <header className="topbar">
-        <Link to="/" className="brand"><img src="/icon.svg" alt="" />Film Crew HQ</Link>
+        <Link to="/" className="brand"><img src={`${import.meta.env.BASE_URL}icon.svg`} alt="" />Film Crew HQ</Link>
         <div className="topbar-actions">
           <Link to="/activity" className="icon-btn" aria-label={`Notifications, ${unread} new`}>
             <BellIcon />
@@ -34,7 +34,7 @@ export default function Nav({ unread = 0 }) {
       </nav>
 
       <aside className="sidebar" aria-label="Main">
-        <Link to="/" className="brand"><img src="/icon.svg" alt="" />Film Crew HQ</Link>
+        <Link to="/" className="brand"><img src={`${import.meta.env.BASE_URL}icon.svg`} alt="" />Film Crew HQ</Link>
         {tabs.map(({ to, label, Icon }) => (
           <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => 'side-link' + (isActive ? ' active' : '')}>
             <Icon />

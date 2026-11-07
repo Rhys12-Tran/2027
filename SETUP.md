@@ -59,3 +59,17 @@ Your old email account (`trantruonga4pct@gmail.com`) can stay in Users. It doesn
 
 ### Later: email alerts (step 9)
 Email alerts will need a Gmail account connected to Supabase (custom SMTP). We'll set that up when we get to step 9. Sign-in doesn't need it.
+
+---
+
+## Putting it online (GitHub Pages)
+The site publishes itself every time `main` changes (`.github/workflows/pages.yml`).
+
+1. GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**. Add two:
+   - `VITE_SUPABASE_URL`: your Project URL
+   - `VITE_SUPABASE_ANON_KEY`: your publishable key
+2. **Settings** → **Pages** → Source: **GitHub Actions**.
+3. **Actions** tab → **Deploy to GitHub Pages** → **Run workflow**.
+
+Link: <https://rhys12-tran.github.io/2027/>. Without the two secrets the live site runs in demo mode (sample data).
+The publishable key is designed to be public; the team code and database rules are what keep your data private.

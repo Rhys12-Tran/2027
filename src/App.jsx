@@ -18,7 +18,7 @@ export default function App() {
   const { loading, signedIn, userId } = useAuth()
   const { people, loading: teamLoading } = useTeam()
 
-  if (loading) return <div className="splash"><img src="/icon.svg" alt="Loading" width="56" height="56" /></div>
+  if (loading) return <div className="splash"><img src={`${import.meta.env.BASE_URL}icon.svg`} alt="Loading" width="56" height="56" /></div>
   if (!signedIn) return <Login />
   // Signed in with the team code, but this device doesn't know who you are yet (or that person was removed).
   if (!userId || (!teamLoading && !people.some((p) => p.id === userId))) return <WhoAreYou />

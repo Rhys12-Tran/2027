@@ -32,7 +32,7 @@ export default function WhoAreYou() {
     <main className="center-page">
       <div style={{ width: '100%', maxWidth: 520 }}>
         <div style={{ textAlign: 'center', marginBottom: 16 }}>
-          <img src="/icon.svg" alt="" width="48" height="48" />
+          <img src={`${import.meta.env.BASE_URL}icon.svg`} alt="" width="48" height="48" />
           <h1 style={{ marginTop: 8 }}>Who are you?</h1>
           <p className="muted" style={{ margin: '4px 0 0' }}>Tap your name. This device will remember you.</p>
         </div>

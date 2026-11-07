@@ -20,7 +20,7 @@ export default function Login() {
   return (
     <main className="center-page">
       <form className="card" style={{ width: '100%', maxWidth: 380, textAlign: 'center' }} onSubmit={submit}>
-        <img src="/icon.svg" alt="" width="56" height="56" />
+        <img src={`${import.meta.env.BASE_URL}icon.svg`} alt="" width="56" height="56" />
         <h1 style={{ margin: '12px 0 4px' }}>Film Crew HQ</h1>
         <p className="muted" style={{ marginTop: 0 }}>Type the team code. You only need to do this once on each device.</p>
         <input

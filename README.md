@@ -29,7 +29,7 @@ Open <http://localhost:5180>. Nothing you do here is saved.
    ```
 4. Open <http://localhost:5173>, type the team code, and tap your name.
 
-> On phones: a proper web link is coming in step 8. Until then the site only runs on a computer.
+> Online: the site is published with GitHub Pages at https://rhys12-tran.github.io/2027/ (see SETUP.md, "Putting it online").
 
 ## For the team leader
 Database setup and sign-in: [SETUP.md](SETUP.md).
