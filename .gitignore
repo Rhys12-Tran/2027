@@ -1,0 +1,8 @@
+node_modules
+dist
+.claude/
+
+# Secret keys: never upload
+.env
+.env.local
+*.local
